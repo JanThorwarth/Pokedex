@@ -19,6 +19,7 @@ header {
 .title {
   color: white;
   font-family: "Roboto";
+  font-weight: 600;
   margin-bottom: 0;
 }
 .logo-name {
@@ -237,21 +238,26 @@ input {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
-    height: 800px;
+    height: 650px;
     border-radius: 32px;
   }
   .detailCardStats {
     position: absolute;
-    top: 75%;
+    top: 77%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
-    height: 400px;
+    height: 300px;
     border-radius: 32px;
     background-color: white;
   }
   .inputRes {
     width: 100px;
     font-size: 12px;
+  }
+  .pokemon-img-detail {
+    margin-top: 5px;
+    width: 250px;
+    z-index: 99;
   }
 }
